@@ -8,7 +8,7 @@ import jsonlines
 import pytorch_lightning as pl
 from torch.utils.data import DataLoader
 
-from train_longformer_extractor_context import KWDatasetContext, KeywordExtractorClf
+from src.train_extractor_context import KWDatasetContext, KeywordExtractorClf
 
 
 MODELS = {

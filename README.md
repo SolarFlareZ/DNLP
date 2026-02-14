@@ -17,7 +17,7 @@ python3 src/prepare_data.py \
 ### 2. Train the keyphrase extractor
 
 ```bash
-python3 src/updated_extractor.py \
+python3 src/train_extractor_context.py \
   --model bigbird_large \
   --dataset_dir experiments/cnn_dataset/ \
   --checkpoint_dir experiments/cnn_extractor_model/
@@ -36,7 +36,7 @@ Available `--model` options:
 ### 3. Extract keyphrases (inference)
 
 ```bash
-python3 src/inference_longformer_extractor.py \
+python3 src/inference_extractor.py \
   --model bigbird_large \
   --dataset_dir experiments/cnn_dataset/ \
   --checkpoint_dir experiments/cnn_extractor_model/ \
