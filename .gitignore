@@ -1,0 +1,14 @@
+experiments/
+lightning_logs/
+*.ckpt
+*.bin
+*.safetensors
+
+
+__pycache__/
+*.pyc
+venv/
+.env
+
+.vscode/
+.DS_Store

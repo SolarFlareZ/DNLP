@@ -1,0 +1,16 @@
+boto3
+botocore
+datasets
+jsonlines
+matplotlib
+nltk
+numpy
+pandas
+pytorch_lightning
+rake_nltk
+rapidfuzz
+rouge_score
+seaborn
+torch
+tqdm
+transformers
