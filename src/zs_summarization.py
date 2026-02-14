@@ -13,7 +13,7 @@ from nltk.tokenize import word_tokenize
 from rapidfuzz import fuzz
 from rouge_score import rouge_scorer
 
-from SigExt.src.local_model_utils import (
+from src.local_model_utils import (
     predict_one_eg_mistral,
     predict_one_eg_llama,
     predict_one_eg_qwen,
